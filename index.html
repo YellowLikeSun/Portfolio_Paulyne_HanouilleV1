@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mon portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="case"><a href="https://codesandbox.io/s/codage-portfolio-zlqewq?file=/#competences">Accueil</a></li>
+          <!-- vous pouvez remarquer un essaie d'ancre pour faire 
+            en sorte que ma barre de navigation fonctionne -->
+          <li class="case"><a href="#">Compétences</a></li>
+          <li class="case"><a href="#">Portfolio </a></li>
+          <li class="case"><a href="#">Contactez-moi</a></li>
+        </ul>
+      </nav>
+    </header>
+<!-- barre de navigation -->
+    <main>
+      <section class="boiteaccueil">
+        <div class="texte1">
+          <h1>Paulyne HANOUILLE</h1>
+          <h2 class="sous-titre">
+            BUT Métiers du Multimédia et de l'Internet (MMI)
+          </h2>
+          <p>"La vie, c'est comme une boîte de chocolats. On ne sait jamais sur quoi on va tomber."</p>
+          <p class="mono"><img src="monogramme.JPG" width="300" alt="" /></p>
+        </div>
+
+        <div class="fotomoi"><img class="imagemoi" src="#" /></div>
+      </section>
+
+      <section class="comp">
+        <h3 class="titre" id="#competences">Compétences</h3>
+
+        <div class="stylcomp">
+          <div> <img src="competence.png"width="400" alt=""> </div>
+
+          <div>
+            <p class="cv">
+             Actuellement en BUT MMI à l'IUT de Corte. J'y apprend l'utilisation de la suite adobe, la communication, 
+             le marketing, la photographie et à me servir des outils audiovisuels. J'ai appris à ne pas abandonner face à un échec et à repousser mes limites.
+             Dû à mon passé dans l'eSport je suis un très bon atout pour le travail d'équipe.
+             
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="folio">
+        <h3 class="titre">Portfolio</h3>
+       <div class="square">
+       <div class="c1"><p class="align">projet graphique scolaire</p> </div>
+        <div class="c2"><p class="align1"> photos </p> </div>
+       </div>
+       <div class="square1">
+       <div class="c3"><p class="align1">audit</p></div>
+       <div class="c4"><p class="align">créations personelles</p></div>
+       </div>
+      </section>
+
+      <section class="contact">
+        <h3 class="titre">Contactez-moi</h3>
+        <div class="wrapper2">
+          <div>
+            <p class="textcontact">
+              Je reste à votre disposition pour toutes autres informations ou
+              demande. N’hésitez pas à me contacter vie le formulaire ou par mes
+              réseaux sociaux.
+            </p>
+          </div>
+
+          <div class="form">
+            <form action="/ma-page-de-traitement" method="post">
+              <div>
+                  <label for="name">Nom :</label>
+                  <input class="animform"type="text" id="nom" name="user_nom">
+              </div>
+              <div>
+              <label for="name">Prénom :</label>
+              <input class="animform" type="text" id="prenom" name="user_prenom">
+          </div>
+              <div>
+                  <label for="mail">e-mail&nbsp;:</label>
+                  <input class="animform"type="email" id="mail" name="user_mail">
+              </div>
+              <div>
+                  <label for="msg">Message :</label>
+                  <textarea class="animform" id="msg" name="user_message"></textarea>
+              </div>
+              <input class="buton" type="submit" value="Envoyer le formulaire">
+          </form>
+          
+          </div>
+        </div>
+         
+        
+      </section>
+    </main>
+    <footer class="foot">
+      <p class="textfoot"> Mes réseaux :</p>
+      <li>  <a href="https://twitter.com/"> Twitter <im src="logotwitter.png" width="40"></a> </li>
+        <li>  <a href="https://www.instagram.com/"> Instagram <im src="logoinstagram.png" width="40"> </a></li>
+          <li>   <a href="https://discord.com/">Discord <im src="logodiscord.png" width="40"> </a></li>
+            <li>   <a href="https://fr.linkedin.com/">LinkedIn <im src="LinkedIn.png" width="40"> </a></li>
+           </footer>
+  </body>
+  
+</html>
